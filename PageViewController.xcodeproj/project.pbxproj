@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E68C739A3601240B767E314A /* Pods_PageViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F23EC3F076DBADA6898C97C /* Pods_PageViewController.framework */; };
 		F59A98AE1E5B4006003694A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59A98AD1E5B4006003694A7 /* AppDelegate.swift */; };
-		F59A98B01E5B4006003694A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59A98AF1E5B4006003694A7 /* ViewController.swift */; };
-		F59A98B31E5B4006003694A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F59A98B11E5B4006003694A7 /* Main.storyboard */; };
 		F59A98B51E5B4006003694A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59A98B41E5B4006003694A7 /* Assets.xcassets */; };
 		F59A98B81E5B4006003694A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F59A98B61E5B4006003694A7 /* LaunchScreen.storyboard */; };
+		F59A98C31E5B40FF003694A7 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59A98C11E5B40FF003694A7 /* WeatherVC.swift */; };
+		F59A98C41E5B40FF003694A7 /* WeatherVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F59A98C21E5B40FF003694A7 /* WeatherVC.xib */; };
+		F59A98C71E5B4111003694A7 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59A98C51E5B4111003694A7 /* MainVC.swift */; };
+		F59A98C81E5B4111003694A7 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F59A98C61E5B4111003694A7 /* MainVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0103B07732AE984A58886769 /* Pods-PageViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PageViewController/Pods-PageViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		8F23EC3F076DBADA6898C97C /* Pods_PageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F5884C289A43836038D24C /* Pods-PageViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-PageViewController/Pods-PageViewController.release.xcconfig"; sourceTree = "<group>"; };
 		F59A98AA1E5B4006003694A7 /* PageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F59A98AD1E5B4006003694A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F59A98AF1E5B4006003694A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F59A98B21E5B4006003694A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F59A98B41E5B4006003694A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F59A98B71E5B4006003694A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F59A98B91E5B4006003694A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F59A98C11E5B40FF003694A7 /* WeatherVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
+		F59A98C21E5B40FF003694A7 /* WeatherVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherVC.xib; sourceTree = "<group>"; };
+		F59A98C51E5B4111003694A7 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		F59A98C61E5B4111003694A7 /* MainVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E68C739A3601240B767E314A /* Pods_PageViewController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D4265A613C6B25CE7D35342 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0103B07732AE984A58886769 /* Pods-PageViewController.debug.xcconfig */,
+				A7F5884C289A43836038D24C /* Pods-PageViewController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ADB356D3A1F4A9723F6D1B0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F23EC3F076DBADA6898C97C /* Pods_PageViewController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F59A98A11E5B4006003694A7 = {
 			isa = PBXGroup;
 			children = (
 				F59A98AC1E5B4006003694A7 /* PageViewController */,
 				F59A98AB1E5B4006003694A7 /* Products */,
+				9D4265A613C6B25CE7D35342 /* Pods */,
+				ADB356D3A1F4A9723F6D1B0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +82,32 @@
 		F59A98AC1E5B4006003694A7 /* PageViewController */ = {
 			isa = PBXGroup;
 			children = (
+				F59A98C01E5B40DE003694A7 /* WeatherVC */,
+				F59A98BF1E5B40D3003694A7 /* MainVC */,
 				F59A98AD1E5B4006003694A7 /* AppDelegate.swift */,
-				F59A98AF1E5B4006003694A7 /* ViewController.swift */,
-				F59A98B11E5B4006003694A7 /* Main.storyboard */,
 				F59A98B41E5B4006003694A7 /* Assets.xcassets */,
 				F59A98B61E5B4006003694A7 /* LaunchScreen.storyboard */,
 				F59A98B91E5B4006003694A7 /* Info.plist */,
 			);
 			path = PageViewController;
+			sourceTree = "<group>";
+		};
+		F59A98BF1E5B40D3003694A7 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				F59A98C51E5B4111003694A7 /* MainVC.swift */,
+				F59A98C61E5B4111003694A7 /* MainVC.xib */,
+			);
+			name = MainVC;
+			sourceTree = "<group>";
+		};
+		F59A98C01E5B40DE003694A7 /* WeatherVC */ = {
+			isa = PBXGroup;
+			children = (
+				F59A98C11E5B40FF003694A7 /* WeatherVC.swift */,
+				F59A98C21E5B40FF003694A7 /* WeatherVC.xib */,
+			);
+			name = WeatherVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +117,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F59A98BC1E5B4006003694A7 /* Build configuration list for PBXNativeTarget "PageViewController" */;
 			buildPhases = (
+				D943EAE250E6070174F6B4D0 /* [CP] Check Pods Manifest.lock */,
 				F59A98A61E5B4006003694A7 /* Sources */,
 				F59A98A71E5B4006003694A7 /* Frameworks */,
 				F59A98A81E5B4006003694A7 /* Resources */,
+				92DBAD5F5AB3B784787AA4BF /* [CP] Embed Pods Frameworks */,
+				D1F1B687F12EDF7E5FC085A4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +145,7 @@
 				TargetAttributes = {
 					F59A98A91E5B4006003694A7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FAJ8DNJF59;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,34 +174,76 @@
 			buildActionMask = 2147483647;
 			files = (
 				F59A98B81E5B4006003694A7 /* LaunchScreen.storyboard in Resources */,
+				F59A98C81E5B4111003694A7 /* MainVC.xib in Resources */,
+				F59A98C41E5B40FF003694A7 /* WeatherVC.xib in Resources */,
 				F59A98B51E5B4006003694A7 /* Assets.xcassets in Resources */,
-				F59A98B31E5B4006003694A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		92DBAD5F5AB3B784787AA4BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PageViewController/Pods-PageViewController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1F1B687F12EDF7E5FC085A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PageViewController/Pods-PageViewController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D943EAE250E6070174F6B4D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F59A98A61E5B4006003694A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F59A98B01E5B4006003694A7 /* ViewController.swift in Sources */,
 				F59A98AE1E5B4006003694A7 /* AppDelegate.swift in Sources */,
+				F59A98C71E5B4111003694A7 /* MainVC.swift in Sources */,
+				F59A98C31E5B40FF003694A7 /* WeatherVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F59A98B11E5B4006003694A7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F59A98B21E5B4006003694A7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F59A98B61E5B4006003694A7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -203,7 +295,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -247,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -258,9 +350,12 @@
 		};
 		F59A98BD1E5B4006003694A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0103B07732AE984A58886769 /* Pods-PageViewController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FAJ8DNJF59;
 				INFOPLIST_FILE = PageViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pageViewController.PageViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,9 +365,12 @@
 		};
 		F59A98BE1E5B4006003694A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7F5884C289A43836038D24C /* Pods-PageViewController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FAJ8DNJF59;
 				INFOPLIST_FILE = PageViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pageViewController.PageViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +397,7 @@
 				F59A98BE1E5B4006003694A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
